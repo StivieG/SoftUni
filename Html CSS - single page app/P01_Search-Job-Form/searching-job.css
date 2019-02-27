@@ -1,0 +1,61 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+*{
+    padding: 0px;
+    margin: 0px;
+}body{
+    font-family: 'Tahoma',sans-serif
+}
+header{
+    background: #384452;
+}nav ul li{
+    display: inline-block;
+    padding: 35px;
+}nav ul li a{
+    text-decoration: none;
+    color:#8BAEC2;
+}nav a::before{
+    font-family: FontAwesome;
+    margin:10px
+}li:first-child a::before{
+    content: "\f002";
+    
+}li:nth-child(2) a::before{
+    content: "\f02c";
+}li:nth-child(3) a::before{
+    content: "\f041";
+}li:nth-child(4) a::before{
+    content: "\f007";
+}li:hover{
+    background-color:#3BBC96;
+    cursor: pointer;
+}li:hover a{
+    color:white;
+}form{
+    background: #EEEEEE;
+    width: 100%;
+    
+}label{
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+}span{
+    margin-bottom: 10px;
+    color:#414C78;
+    font-weight: bold;
+}input{
+    margin-top: 20px;
+    padding: 10px
+}input[type=Submit]{
+    background-color: #384452;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #B1B99C;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 51px;
+    left: 19px;
+}input[type=Submit]:hover{
+    background: #3BBC96;
+    color: #EEEEEE
+}

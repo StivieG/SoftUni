@@ -1,0 +1,118 @@
+body{
+    font-family: 'Open sans'
+}
+
+nav li{
+    display: inline-flex;
+    padding: 15px;
+}header {
+    text-align: center;
+    background: white;
+}header ul{
+    margin: 0px;
+    padding: 0px;
+}header li a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}.first{
+    background: url(img/header.png) no-repeat center;
+    background-size: cover;
+    height: 390px;
+}.first h1{
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 30px;
+}.first h4{
+    border-bottom: 3px solid coral;
+    width: 45px;
+    margin: 24px auto;
+}.first h3{
+    color: lightgrey;
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}.second{
+    height: 300px;
+    background: #F05F40;
+}.second h2{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}.second h4{
+    border-bottom: 3px solid white;
+    width: 45px;
+    margin: 24px auto;
+}.second h3{
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 100;
+}.second button{
+    text-transform: uppercase;
+    margin: 20px auto;
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    background: white;
+    font-weight: bold
+}.third {
+    height: 370px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}.third h2{
+    text-align: center;
+    margin: 0px;
+    padding: 30px 0 5px 0
+}.third h4{
+    border-bottom: 2px solid coral;
+    width: 45px;
+    margin: 14px auto;
+}.third article {
+    display: inline-block;
+    width: 21%;
+    padding: 35px 10px;
+    vertical-align: top;
+}.third article p{
+    color: grey;
+}
+
+.third i{
+    font-size: 50px;
+    color: #F05F40
+}.pic img{
+    width: 100%;
+    height: 100%
+}.pic article{
+    padding: 0px 20px;
+
+    
+}.pic{
+    text-align: center
+}.pic img{
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}.pic {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    display: flex;
+    justify-content: space-around;
+}footer{
+    text-align: center;
+   opacity: 0.7;
+}footer span{
+    color: orangered
+}.second button:hover{
+    background: #E2E6EA;
+    cursor: pointer;
+}

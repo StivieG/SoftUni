@@ -1,0 +1,11 @@
+.row{
+    text-align: center;
+    border-bottom: 5px solid green;
+}.container-fluid{
+    border-bottom: 3px solid green;
+    border-top:  3px solid green;
+}.col-lg-1,.col-lg-4,.col-lg-6{
+    border-left: 3px solid green;
+}body > div > div:nth-child(1) > div:nth-child(1),body > div > div:nth-child(3) > div:nth-child(1),body > div > div:nth-child(4) > div:nth-child(1),body > div > div:nth-child(4){
+    border: none;
+}

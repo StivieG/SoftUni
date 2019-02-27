@@ -1,0 +1,33 @@
+body{
+    background: palevioletred;
+    margin: auto;
+    font-family: 'Open Sans'
+}
+
+
+section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid white;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+    margin: 100px auto;
+    padding: 50px 
+}article{
+    width: 18%;
+}article img{
+    width: 50%
+}article p{
+    text-align: left
+}.shadow{
+    text-shadow: 22px 16px 2px grey;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    display: flex
+}#midle{
+    padding-top: 18px;
+}
+

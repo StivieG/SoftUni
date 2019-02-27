@@ -1,0 +1,64 @@
+.prime{
+    width: 56%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    margin: 50px auto;
+    background: white;
+
+}body{
+    background: #B58876;
+    font-family: 'Poppins'
+}img{
+    width: 70%;
+    padding: 50px
+}.image{
+    width: 100%;
+}.form{
+    padding: 30px;
+}i{
+    position: relative;
+    top: 29px;
+    left: 17px;
+    
+}input[type="email"],input[type="password"]{
+    padding: 15px 0px 15px 39px;
+    border-radius: 20px;
+    background: lightgrey;
+    border: none;
+}.form h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 200;
+}.info{
+    display: flex;
+    flex-direction: column;
+}h3{
+    padding-top: 30px;
+    text-transform: lowercase;
+}#Banana,#lady,#joy{
+    color: lightgrey
+}input[type="submit"]{
+    padding: 15px 27px;
+    border-radius: 20px;
+    border: none;
+    background: #8E6B52;
+    color: white;
+    margin-top: 50px;
+}#span{
+    font-size: 12px;
+    text-align: center;
+    color: lightgrey
+}#span a{
+    color: grey;
+}#footer{
+    text-align: center;
+    padding-top: 30px;
+    color: grey
+}#footer i{
+    position: relative;
+    top: 2px;
+    left: 5px;
+}#footer a{
+    color: grey
+}

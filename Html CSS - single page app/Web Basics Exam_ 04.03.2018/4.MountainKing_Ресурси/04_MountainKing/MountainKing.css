@@ -1,0 +1,117 @@
+header{
+    background: url(img/background-header.jpg);
+    background-size: cover;
+   
+}#logo{
+    height: 100px;
+    padding: 10px;
+    margin-top: 35px;
+}header h2{
+    text-transform: lowercase;
+    opacity: 0.2;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}header h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+}header h3{
+    width: 40%;
+    text-align: center;
+    margin: 50px auto;
+    opacity: 0.8;
+    
+}#blue{
+    padding: 20px 35px;
+    border-radius: 30px;
+    background: darkblue;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    margin-top: 20px
+}#pink{
+    padding: 20px 35px;
+    border-radius: 30px;
+    background: pink;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    margin-top: 20px
+
+}header div{
+    text-align: center;
+    padding: 50px 0 100px 0
+}.top{
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: space-around;
+    height: 350px;
+}.top article{
+    width: 30%;
+}
+.top i{
+    font-size: 48px;
+    color: darkorange;
+    border: 3px solid darkorange;
+    border-radius: 50%;
+    padding: 18px 25px;
+}.top h4{
+    font-size: 30px;
+    font-style: italic;
+}.bottom{
+    background: url(img/moon.jpg);
+    background-size: cover;
+    height: 600px
+}.bottom article{
+    width: 33%;
+    border: 3px solid coral;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+}.bottom h4{
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}.bottom button{
+    background: goldenrod;
+    padding: 30px 12px;
+    border-radius: 50%;
+    margin: 80px 20px 80px 20px;
+}footer{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0 30px 0;
+}footer li a{
+    text-decoration: none;
+    
+}footer li{
+    display: inline-block
+}#face{
+    font-size: 30px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    padding: 5px 15px;
+    color: blue
+}#twit{
+    font-size: 30px;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: aqua
+}#insta{
+    font-size: 30px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    padding: 5px 12px;
+    color: purple;
+}footer p{
+    margin-right: 540px;
+}body > main > section.bottom > article > p{
+    font-size: 14px;
+    width: 90%;
+    margin: auto
+}

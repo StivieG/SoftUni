@@ -1,0 +1,36 @@
+@media only screen and (max-width: 481px){
+    header{
+        background: url(images/bg.jpg)no-repeat;
+        background-size: cover;
+    }body{
+        padding: 0px;
+        margin: 0px;
+        background: #1E1F23;
+    }header> .logo{
+        margin: 0px 0 0 0;
+        padding: 79px 0 30px 0;
+    }header > .logo a{
+        font-size: 3rem;
+    }.wrapper > header h2:after{
+        width: 64%;
+    }.wrapper.style1 .content{
+        padding: 2rem;
+        opacity: 0.5;
+    }.wrapper.style2{
+        padding: 1rem
+    }.wrapper.style2 header p{
+        font-size: 0.7rem
+    }.gallery{
+        flex-direction: column
+    }.gallery > div{
+        width: 100%;
+    }.spotlight > img{
+        width: 100%;
+    }.spotlight .inner {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+        }.spotlight .inner p{
+        opacity: 0.5;
+    }
+}

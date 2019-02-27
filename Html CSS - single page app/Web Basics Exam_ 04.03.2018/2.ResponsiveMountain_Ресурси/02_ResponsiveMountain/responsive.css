@@ -1,0 +1,48 @@
+@media only screen and (max-width: 481px){
+    .header-nav{
+        display: none;
+    }body > section.billboard.light{
+        text-align: center;
+        width: 100%;
+        padding-left: 0px;
+    }.caption hr{
+        margin: auto;
+    }.caption p{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+    }.clearfix {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }.clearfix p{
+        border-bottom: 5px dotted lightgrey;
+        padding: 5px;
+        
+    }
+    .mountain-img{
+        background-size: cover;
+        height: 281px;
+        width: 100%;
+    }.testimonials wrapper{
+        width: 100%;
+    }.title{
+        width: 100%;
+        text-align: center;
+    }.title h3#clients-says{
+        margin-left:  0px;
+    }.client{
+        flex-direction: column
+    }.img-container .avatar{
+        margin-left: 0px;
+    }.list-link{
+        border-bottom: 5px dotted lightgray;
+        padding-bottom: 5px;
+    }.date {
+        left: 179px;
+    }footer nav{
+        display: none;
+    }.rights{
+        text-align: center;
+    }
+}

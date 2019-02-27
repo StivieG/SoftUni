@@ -1,0 +1,25 @@
+﻿@media only screen and (max-width: 1000px) and (min-width: 757px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 170px;
+    }#header-area-right{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+        margin: 0px auto;
+    }#logoarea {
+        padding: 20px 5px 20px 5px;
+    }#search-form{
+        margin: 5px auto;
+    }#publicphotos {
+        width: 74%;
+        padding: 29px 0 0 29px;
+        margin: auto;
+    }#p-albums-items > div:nth-child(7){
+        margin-left: 120px;
+    }#publicphotos h1{
+        text-align: center;
+        width: 94%;
+    }
+}

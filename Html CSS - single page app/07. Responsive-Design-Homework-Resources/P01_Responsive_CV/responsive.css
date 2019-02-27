@@ -1,0 +1,35 @@
+@media screen and (max-width: 740px) {
+    #info{
+        text-align: center;
+        float: none;
+    }#photo{
+        text-align: center;
+        float: none;
+    }#profile>p{
+        padding-left: 0px;
+    }h2{
+        text-align: center
+    }p{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    ul li {
+        padding: 0px;
+        display: inline-block;
+        width: 36%
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul li {
+        padding: 0px;
+        display: inline-block;
+        width: 45%;
+    }#skills-right ul li{
+        width: 40%
+    }#skills-right{
+        padding-top: 20px;
+    }
+}

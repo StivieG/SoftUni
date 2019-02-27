@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1200px) and (min-width: 700px){
+    .content-wrap{
+        flex-direction: column;
+    }.wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }.content{
+        float: none;
+    }.main-foot{
+        float: none;
+    }.main-foot address{
+        width: 47%;
+        display: inline-block;
+        vertical-align: top;
+    }.main-foot nav{
+        width: 47%;
+    display: inline-block;
+    vertical-align: top;
+    }.main-foot .wrapper{
+        display: inline-block;
+        padding-left: 30px;
+    }
+}@media only screen and (max-width: 699px) {
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }.main-nav{
+        display: none;
+    }.main-nav-trigger {
+        display: inline-block;
+        position: relative;
+        z-index: 3;
+        width: 53px;
+        height: 50px;
+        padding: 20px 15px;
+        cursor: pointer;
+        float: right;
+    }.hero-head h1{
+        text-align: center;
+        margin: 115px 0 20px;
+    }.hero-head .goal{
+        text-align: center;
+        margin: auto;
+        max-width: 84%;
+        float: none;
+    }.content-wrap{
+        display: block;
+        text-align: center;
+    }.button{
+        width: 100%;
+    }.button-list{
+        display: flex;
+        flex-direction: column;
+    }.content.woodsmoke{
+        text-align: center;
+    }.main-foot .wrapper{
+        text-align: center;
+        flex-direction: column
+    }.main-foot .bottom .copyright{
+        float: none;
+    }h3,h1{
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+header{
+    background: url(images/header.jpg) no-repeat;
+    padding: 4%;
+    text-align: center;
+    color: white;
+   
+    
+}body{
+    font-size:14px;
+    font-family: cursive;
+    margin: auto;
+    
+}article{
+    padding: 0 0 0 80px;
+    width: 750px;
+    
+}img{
+    width: 750px
+}aside{
+  display: inline-block;
+  width: 350px;
+  padding: 0 80px ;
+  position: absolute;
+  
+  
+  
+  
+} aside img{
+    width: 350px;
+}div{
+    display: inline-block
+}aside  h1{
+    margin: 20px 0px 42px 0;
+}button{
+    font-family: cursive;
+    color: red;
+    text-decoration: none;
+    border: 1px solid red;
+    background: white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+}button:hover{
+    background: red;
+    color: white;   
+}a{
+    font-family: cursive;
+    color: red;
+    text-decoration: none;
+
+}a:hover{
+    background: red;
+    color: white;   
+    cursor: pointer;
+    
+}
+

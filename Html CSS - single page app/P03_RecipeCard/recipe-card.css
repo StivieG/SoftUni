@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    background:  url(images/food-image-bg.png) ;
+    font-family: 'Lato';
+    font-size: 14px
+}h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 58px;
+    float: right;
+    padding: 30px 250px 0 0
+}p{
+    display: inline-block;
+    padding-left: 45px;
+    color: white;
+    font-weight: bold;
+}div{
+    display: inline-block;
+    padding: 70px
+}span{
+    color: greenyellow;
+    font-weight: bold;
+}.btn-primary {
+    background: none;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;   
+    font-family: 'lato';
+    padding: 7px 15px;
+    border-radius: 15px;
+    font-size:16px;
+
+}
